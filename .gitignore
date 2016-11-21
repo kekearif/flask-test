@@ -1,0 +1,6 @@
+# The virtual env must be created on the instance not copied across
+venv/
+*.pyc
+*.pyo
+*.mo
+run.py
