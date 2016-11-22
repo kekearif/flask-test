@@ -9,3 +9,7 @@ def hello():
 @main.route("/keke/")
 def keke():
     return "Hello Keke!"
+
+@main.route("/elly/")
+def keke():
+    return "Hello Elly!"
