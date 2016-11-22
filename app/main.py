@@ -13,3 +13,7 @@ def keke():
 @main.route("/elly/")
 def elly():
     return "Hello Elly!"
+
+@main.route("/hello/<person>")
+def person():
+    return "Hello!" + person + "!"
