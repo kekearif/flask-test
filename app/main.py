@@ -11,5 +11,5 @@ def keke():
     return "Hello Keke!"
 
 @main.route("/elly/")
-def keke():
+def elly():
     return "Hello Elly!"
