@@ -6,4 +6,4 @@ app.register_blueprint(main)
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return "Sorry no page!!!!!"
+    return app.send_static_file("static/404_error.html")
